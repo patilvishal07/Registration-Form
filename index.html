@@ -4,45 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo</title>
-    <style>
-   
-   .first{
-       background-color: red;
-
-   }
-
-   #first{
-       background-color: aqua;
-   }
-
-   #panel{
-       background-color: yellow;
-       color: red;
-       height: 400px;
-       width: 100%;
-
-   }
-   
-
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <h1 class="first">Main Heading</h1>
+    <h1>Student registration form using Html and css</h1>
+    <table text-align="center" cellpadding="10" >
+        <tr>
+            <td>First name :</td>
+            <td> <input type="text" id="name" name="name" placeholder="Enter u r First  name "></td>
+        </tr>
+        <tr>
+            <td>Last name :</td>
+            <td> <input type="text" id="name" name="name" placeholder="Enter u r last  name "></td>
+        </tr>
+        <tr>
+            <td>Email :</td>
+            <td> <input type="text" id="email" name="name" placeholder="Eenter u r email"></td>
+        </tr>
+        <tr>
+            <td>Passwoed :</td>
+            <td> <input type="text" id="password" name="name" placeholder="Enter u r password "></td>
 
-    <h2 id="first">Hello World</h2>
+        </tr>
+        <tr>
+            <td>Re-Enter Passwoed :</td>
+            <td> <input type="text" id="password" name="name" placeholder="Re-enter u r password "></td>
+        </tr>
+        <tr>
+            <td>Date of birth :</td>
+            <td> <input type="date" id="name " name="DOB" ></td>
 
-    <h2 id="first">hello world</h2>
+        </tr>
+        <tr>
+            <td>Mobile number :</td>
+            <td> <input type="number" id="name" name="mnum" placeholder="Enter u r mobile number"></td>
 
-    <div class="first" >
-        hegebehevehv
+        </tr>
+        <tr>
+            <td>Gender :</td>
+            <td><input type="radio" name="male">Male 
+            <input type="radio" name="female">female
+            <input type="radio" name="other">Other</td>
+         </tr>
+         <tr>
+             <td>Address :</td>
+             <td><textarea rows="6" cols="25" placeholder="Enter u r address"></textarea></td>
+         </tr>
+         <tr>
+            <td>State :</td>
+            <td> <input type="text" id="name" name="state" placeholder="Enter u r State"></td>
 
-    </div>
+        </tr>
+        <tr>
+            <td>City :</td>
+            <td> <input type="text" id="name" name="City" placeholder="Enter u r City"></td>
 
-    <div id="panel">
-        bfdhbvdvvh
+        </tr>
+        <tr>
+            <td>Country :</td>
+            <td> <input type="text" id="name" name="Country" placeholder="Enter u r Country"></td>
 
-    </div>
+        </tr>
+        <tr>
+            <td>Pincode :</td>
+            <td> <input type="text" id="name" name="pincode" placeholder="Enter u r pincode"></td>
+
+        </tr>
+        <tr>
+            <td>Course applied for :</td>
+            <td><input type="radio" name="Web developer">Web developer 
+            <input type="radio" name="Informetica">Informetica
+            <input type="radio" name="Power BI">Power BI
+            <input type="radio" name="html and css">HTML & CSS</td>
+         </tr>
+         <tr>
+             <td align="center" colspan="5">
+                 <input type="submit" value="submit"> 
+                 <input type="submit" value="reset">
+             </td>
+         </tr>
+
+    </table>
     
 </body>
 </html>
